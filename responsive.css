@@ -1,17 +1,17 @@
-.mobile {
+.mobile-view {
     display: none;
   }
   
-  .desktop {
+  .desktop-view {
     display: block;
   }
   
   @media only screen and (max-width: 1023px) {
-    .mobile {
+    .mobile-view {
       display: block;
     }
   
-    .desktop {
+    .desktop-view {
       display: none;
     }
   }

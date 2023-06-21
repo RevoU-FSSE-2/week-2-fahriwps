@@ -7,13 +7,22 @@
     text-align: center;
     color: rgb(0, 0, 0);
     background-color: rgba(82, 150, 238, 0.411);
-    height: 220px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 48px;
+    padding-top: 0px;
   }
 
+  header > img {
+    padding-top: 240px;
+    padding-left: 100px;
+    width: 90px;
+    height: 80px;
+    display: block;
+    position: absolute;
+  }
+  
   header > h1 {
     margin: 13px;
     font-size: 30px;
@@ -21,6 +30,7 @@
   }
 
   header > p {
+    text-align: center;
     margin: 0px;
     font-size: 20px;
    font-family: "Helvetica Neue", Arial, sans-serif;
@@ -90,7 +100,7 @@
     width: 100%;
   }
   
-  .relative-container {
+  .image-container {
     position: relative;
   }
   
