@@ -42,13 +42,10 @@
   }
   
   nav > span > img {
-    height: auto;
-    width: auto;
     padding-left: 15px;
   }
 
   nav > ul {
-    margin-right: auto;
     padding-top: 10px;
   }
   
@@ -98,7 +95,6 @@
   }
   
   b {
-    margin: auto;
     padding-left: 10px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
