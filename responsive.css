@@ -1,0 +1,27 @@
+.mobile {
+    display: none;
+  }
+  
+  .desktop {
+    display: block;
+  }
+  
+  @media only screen and (max-width: 1023px) {
+    .mobile {
+      display: block;
+    }
+  
+    .desktop {
+      display: none;
+    }
+  }
+
+@media (max-width: 768px) {
+  header > h1 {
+    font-size: 25px;
+  }
+
+  header > p {
+    font-size: 16px;
+  }
+}
