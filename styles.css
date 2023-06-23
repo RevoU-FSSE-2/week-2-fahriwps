@@ -189,6 +189,7 @@ section {
 }
 
 h2 {
+  padding-top: 50px;
   font-size: 27px;
   font-weight: bold;
   text-align: center;
@@ -198,7 +199,6 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 16px;
-  padding-bottom: 60px;
 }
 
 @media (min-width: 768px) {
@@ -240,22 +240,23 @@ h2 {
 }
 
 @media only screen and (min-width: 768px) {
-  #doge-history > .flex-container {
+  .flex-container {
     display: flex;
-    align-items: center;
+    justify-content: center; /* Center horizontally within the flex container */
+    align-items: center; /* Center vertically within the flex container */
   }
-
+  
   #doge-history > .flex-container iframe {
     margin-left: 50px;
     height: 315px;
     width: 560px;
   }
-
+  
   .doge-history-description {
+    text-align: left;
     padding-left: 60px;
     padding-right: 50px;
   }
-}
 
 fieldset {
   margin: 16px 0;
