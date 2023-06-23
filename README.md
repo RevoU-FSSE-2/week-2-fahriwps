@@ -23,7 +23,7 @@ The repository includes the following files and directories:
 
 - **index.html**: This file serves as the main entry point of the web application. It contains the structure and content of the web page, including HTML elements, layout, and content.
 - **styles.css**: This CSS file contains the styles and visual design for the web page. It defines the colors, fonts, layout, and other visual aspects of the project.
-- **script.js**: The JavaScript file includes function for scrolling and hidding content.
+- **script.js**: The JavaScript file includes function for hamburger menu implementation.
 - **images/**: This directory contains any images or graphics used in the project. It is organized to store and reference image files for a more structured file management approach.
 
 ## Usage
