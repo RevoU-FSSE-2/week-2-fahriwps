@@ -305,7 +305,7 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-p {
+.doge-history-description > p {
   padding: 10px;
 }
 
