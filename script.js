@@ -1,16 +1,16 @@
-window.addEventListener('scroll', function() {
-  var nav = document.querySelector('nav');
-  var headerImage = document.getElementById('dog-image-header');
-  var isHeaderImageHidden = headerImage.classList.contains('hide-image');
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+const navLink = document.querySelectorAll(".nav-link");
 
-  if (window.scrollY > nav.offsetTop && !isHeaderImageHidden) {
-    headerImage.classList.add('hide-image');
-  } else if (window.scrollY <= nav.offsetTop && isHeaderImageHidden) {
-    headerImage.classList.remove('hide-image');
-  }
-});
+hamburger.addEventListener("click", mobileMenu);
+navLink.forEach(n => n.addEventListener("click", closeMenu));
 
-function scrollToRegistration() {
-  const registrationSection = document.getElementById('registration-form');
-  registrationSection.scrollIntoView({ behavior: 'smooth' });
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
 }
